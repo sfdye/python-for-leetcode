@@ -104,6 +104,26 @@ if 'a' < 'c' > 'b':
 if 1 == True != False:
 ```
 
+Todo:
+
+- zip
+- float("inf")
+- itertools.zip_longest
+- collections.Counter
+- heapq
+- list as queue
+- collections.deque as stack
+- string.split
+- itertools.chain
+- yield in recursion
+- sort vs sorted
+- sort tuple, sort by key
+- range vs xrange
+- string.join
+- bisect
+- list initialzation (using asterisk and anti-pattern)
+- enumerate
+
 ## Reference
 
 * https://github.com/brennerm/PyTricks
