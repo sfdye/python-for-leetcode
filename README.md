@@ -6,7 +6,7 @@ Python tricks that will help you with leetcode
 
 1. Use Python 3
 
-2. One-liner Trie 
+2. One-liner Trie
 
 ```python
 trie = lambda :defaultdict(trie)
@@ -33,7 +33,7 @@ print(sum(a), [])
 str = "abcde"
 print(str[::-1])
 
-a = [1,2,3,4,5]
+a = [1, 2, 3, 4, 5]
 print(a[::-1])
 ```
 
@@ -52,14 +52,13 @@ print(all(str[i] == str[~i] for i in range(len(str))))
 
 6. Tuple unpacking
 
+7) Boolean as int
 
-7. Boolean as int
+8) map
 
-8. map
+9) redeuce
 
-9. redeuce
-
-10. Copy list
+10) Copy list
 
 ```python
 a = [1, 2, 3]
@@ -69,14 +68,13 @@ b = a[:]
 11. Dictionary defualt value
 
 ```python
-
 # Before
 d = {}  # dictionary of list
 if k in d:
     d[k].append(v)
 else:
     d[k] = [v]
-   
+
 # After
 
 # 1. setdefault method on dict
@@ -91,7 +89,7 @@ d[k].append(v)
 12. Swap variables
 
 ```python
-a, b = b,a 
+a, b = b,a
 ```
 
 13. Chained boolean comparisons
@@ -123,9 +121,10 @@ Todo:
 - bisect
 - list initialzation (using asterisk and anti-pattern)
 - enumerate
+- Fix markdown syntax
+- Add example problems to each trick
 
 ## Reference
 
-* https://github.com/brennerm/PyTricks
-* Leetcode problem discussions (especially comments from Stefan Pochmann)
-
+- https://github.com/brennerm/PyTricks
+- Leetcode problem discussions (especially comments from Stefan Pochmann)
